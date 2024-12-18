@@ -52,10 +52,6 @@ h1{
     border-radius: 5px;
 }
 
-.stat-container{
-    display: hidden;
-}
-
 .circle{
     width: 120px;
     height: 120px;
@@ -68,7 +64,7 @@ h1{
     font-size: 1rem;
     columns: white;
     font-weight: 700;
-    background: conic-gradient(#299f5d var(--progress-degree,0%),#283a2e 0%);
+    background: conic-gradient(#4caf50 var(--progress-degree), #e0e0e0 var(--progress-degree));
 }
 
 .circle span{
